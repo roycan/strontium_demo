@@ -1,4 +1,80 @@
 *
 {
-    
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: C0E5E9;
+}
+
+body {
+    background-image: url(https://tse3.mm.bing.net/th/id/OIP.zAHAOm1Le1qPECFT5ESPVgHaE8?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header, footer
+{
+    background-color: antiquewhite;
+    color:rgb(165, 105, 31);
+    padding: 10px;
+}
+
+#main-title {
+    text-transform: uppercase;
+    word-spacing: 10px;
+    letter-spacing: -3px;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 5px rgb(185, 154, 113);
+}
+
+.intro
+{
+    font-size: 1.5em;
+    text-decoration: underline;
+    margin-top: 0px;
+}
+
+.coolimage {
+    display: block;
+    width: 25vw;
+    height: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    float: left;
+}
+
+a[target="_blank"]{
+    color:aquamarine;
+}
+
+
+a[href="/internal-page"]{
+    color:rgb(17, 53, 41);
+}
+
+a:hover {
+    color:rgb(255, 0, 0);
+    font-size: 120%;
+}
+
+.container ul
+{
+    list-style-type: none;
+    clear:left;
+    padding: 0;
+}
+
+.container ul li
+{
+    width: 150px;
+    padding: 5px;
+    background-color: cornsilk;
+    text-align: center;
+    display: inline-block;
+    border-radius: 0px 25px;
 }
